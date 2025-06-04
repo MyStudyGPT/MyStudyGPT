@@ -1,16 +1,19 @@
-## Hi there 👋
+# Telegram AI Bot
 
-<!--
-**MyStudyGPT/MyStudyGPT** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Бот с ограничением бесплатных запросов и ответами от ChatGPT.
 
-Here are some ideas to get you started:
+## Запуск
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+1. Установите зависимости:
+```
+pip install -r requirements.txt
+```
+
+2. Запуск локального сервера:
+```
+python run.py
+```
+
+3. Настрой webhook (если размещаешь на сервере).
+
+Файл `.env` содержит твои токены. Никому его не передавай!
